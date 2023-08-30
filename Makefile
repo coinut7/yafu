@@ -19,7 +19,7 @@
 
 CC = gcc
 CFLAGS = -g -m64 -std=gnu99 -DUSE_SSE2
-CFLAGS += -mtune=znver2 -march=znver2
+#CFLAGS += -march=core2 -mtune=core
 WARN_FLAGS = -Wall # -Wconversion
 OPT_FLAGS = -O2 
 
