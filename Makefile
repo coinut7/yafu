@@ -18,7 +18,7 @@
 # ----------------------------------------------------------------------*/
 
 CC = gcc
-CFLAGS = -g -m64 -std=gnu99 -DUSE_SSE2
+CFLAGS = -g -m64 -std=gnu99 -DUSE_AVX2
 CFLAGS += -march=native -mtune=native
 WARN_FLAGS = -Wall # -Wconversion
 OPT_FLAGS = -O3 
