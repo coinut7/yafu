@@ -19,9 +19,9 @@
 
 CC = gcc
 CFLAGS = -g -m64 -std=gnu99 -DUSE_AVX2
-CFLAGS += -march=native -mtune=native
+CFLAGS += -mtune=znver2 -march=znver2
 WARN_FLAGS = -Wall # -Wconversion
-OPT_FLAGS = -O3 
+OPT_FLAGS = -O2 
 
 BINNAME = yafu
 OBJ_EXT = .o
