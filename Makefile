@@ -18,7 +18,7 @@
 # ----------------------------------------------------------------------*/
 
 CC = gcc
-CFLAGS = -g -m64 -std=gnu99 -DUSE_SSE2 -fno-common
+CFLAGS = -g -m64 -std=gnu99 
 CFLAGS += -mtune=znver2 -march=znver2
 WARN_FLAGS = -Wall # -Wconversion
 OPT_FLAGS = -O2 
